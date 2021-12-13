@@ -8,6 +8,6 @@ public class HomeTest {
     public void test() {
         Home home = new Home(new Cat("Alice"));
         Updater.updateCat(home, "Bob");
-        Assertions.assertEquals("Cat(Bob)", home.cat);
+        Assertions.assertEquals("Cat(Bob)", home.cat.toString());
     }
 }
