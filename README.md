@@ -4,7 +4,7 @@
 # Understand Instance, Reference and Method Passing Value via Fixing a Bug
 
 `updateToNewCat` method in [src/main/java/com/bytelegend/Updater.java](https://github.com/ByteLegendQuest/java-fix-method-passing-value/blob/main/src/main/java/com/bytelegend/Updater.java) is intended to update `Cat` instance of `Home`,
-but somehow it doesn't work. Try to understand the problem and fix this issue, so that the `main` method of `Main`
+but somehow it doesn't work. Try to understand the problem and fix this issue, so that the `main` method of `Home`
 runs with output:
 
 ```
