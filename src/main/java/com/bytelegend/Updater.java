@@ -5,7 +5,7 @@ public class Updater {
         updateToNewCat(home.cat, new Cat(newCatName));
     }
 
-    private static void updateToNewCat(Cat cat, Cat newCat) {
-        cat = newCat;
+    private static void updateToNewCat(Home home, Cat newCat) {
+        home.cat = newCat;
     }
 }
