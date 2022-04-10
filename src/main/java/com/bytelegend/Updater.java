@@ -2,10 +2,11 @@ package com.bytelegend;
 
 public class Updater {
     public static void updateCat(Home home, String newCatName) {
-        updateToNewCat(home.cat, new Cat(newCatName));
+        Cat cat = updateToNewCat(home.cat, new Cat(newCatName));
+        home.cat = cat;
     }
 
-    private static void updateToNewCat(Cat cat, Cat newCat) {
-        cat = newCat;
+    private static Cat updateToNewCat(Cat cat, Cat newCat) {
+        return new Cat(newCat.name);
     }
 }
