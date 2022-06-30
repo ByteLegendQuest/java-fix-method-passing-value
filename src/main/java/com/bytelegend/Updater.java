@@ -8,8 +8,6 @@ public class Updater {
     }
 
     private static Home updateToNewCat(Cat cat, Cat newCat) {
-       
-        cat = newCat;
          Home h = new home();
         h.cat = cat;
         return h;
