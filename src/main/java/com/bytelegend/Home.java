@@ -7,6 +7,11 @@ public class Home {
         this.cat = cat;
     }
 
+
+    public void setCat(Cat cat) {
+        this.cat = cat;
+    }
+
     public static void main(String[] args) {
         Home home = new Home(new Cat("White"));
         System.out.println("Cat is: " + home.cat);
