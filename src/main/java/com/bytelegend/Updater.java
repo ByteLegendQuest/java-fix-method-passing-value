@@ -6,6 +6,6 @@ public class Updater {
     }
 
     private static void updateToNewCat(Home home, String newCat) {
-        Home.cat = newCat;
+        home.cat = newCat;
     }
 }
