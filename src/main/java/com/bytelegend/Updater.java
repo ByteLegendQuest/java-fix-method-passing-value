@@ -7,5 +7,6 @@ public class Updater {
 
     private static void updateToNewCat(Cat cat, Cat newCat) {
         cat = newCat;
+        home.cat = new Cat(newCatName);
     }
 }
