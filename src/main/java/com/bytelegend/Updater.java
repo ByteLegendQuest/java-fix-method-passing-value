@@ -6,6 +6,6 @@ public class Updater {
     }
 
     private static void updateToNewCat(Home home, Cat newCat) {
-        cat = newCat;
+        home.cat = newCat;
     }
 }
